@@ -4,7 +4,7 @@ import * as S from "./styles";
 export function Footer() {
   return (
     <S.ContainerFooter>
-      <p>MKS sistemas © Todos os direitos reservados</p>
+      <p>HMD System © Feito com muito carinho 💖</p>
     </S.ContainerFooter>
   );
 }

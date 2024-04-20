@@ -12,8 +12,8 @@ export function Header() {
   return (
     <S.ContainerHeader>
       <S.TitleHeader>
-        <S.BiggerTitle>MKS</S.BiggerTitle>
-        <S.MinorTitle>Sistemas</S.MinorTitle>
+        <S.BiggerTitle>HMD</S.BiggerTitle>
+        <S.MinorTitle>System</S.MinorTitle>
       </S.TitleHeader>
       <ShoppingCart
         toggleShopCart={toggleShopCart}

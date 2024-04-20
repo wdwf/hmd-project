@@ -94,6 +94,7 @@ export const ContainerListItens = styled.div`
 
   .noItens {
     color: #fff;
+    min-width: 352px;
   }
 
   &::-webkit-scrollbar {
