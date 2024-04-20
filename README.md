@@ -15,7 +15,7 @@ Este projeto é uma aplicação web desenvolvida em Next.js. Na composição do 
 
 ## 🎒 Pré-requisitos
 
-❗ A aplicação se encontra hospedada no ...
+❗ A aplicação se encontra hospedada visite aqui: [https://hmd-project.vercel.app/](https://hmd-project.vercel.app/) 
 
 Mas caso queira executar este projeto no seu dispositivo, deve ter em mente que devem ser instaladas as seguintes ferramentas em seu sistema:
 
