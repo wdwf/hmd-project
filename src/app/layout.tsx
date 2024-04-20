@@ -3,7 +3,7 @@ import StyledComponentsRegistry from "./styles/registry";
 import { Montserrat } from "next/font/google";
 
 export const metadata: Metadata = {
-  title: "MKS System Challenge",
+  title: "HMD System",
   description: "Aplicação modelo",
 };
 

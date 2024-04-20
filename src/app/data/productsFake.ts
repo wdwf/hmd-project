@@ -47,7 +47,7 @@ export const productsFake = [
     photo: "https://onedrive.live.com/embed?resid=E707E25C19FE52E4%213532&authkey=%21AIC0FmNNOLIQFqw&width=500&height=500",
     price: "3200.00",
     createdAt: "2023-10-30T16:25:01.093Z",
-    "updatedA": "2023-10-30T16:25:01.093Z"
+    updatedAt: "2023-10-30T16:25:01.093Z"
   }
 ]
 // count: 8

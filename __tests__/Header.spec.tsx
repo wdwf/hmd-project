@@ -13,8 +13,8 @@ describe("Header", () => {
   it("Renderizar titulo maior e titulo menor", () => {
     render(<Header />);
 
-    const biggerTitle = screen.getByText("MKS");
-    const minorTitle = screen.getByText("Sistemas");
+    const biggerTitle = screen.getByText("HMD");
+    const minorTitle = screen.getByText("System");
 
     expect(biggerTitle).toBeInTheDocument();
     expect(minorTitle).toBeInTheDocument();

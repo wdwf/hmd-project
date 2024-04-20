@@ -11,7 +11,7 @@ interface Products {
   createdAt: string;
 }
 
-export async function getProducts() {
+export function getProducts(): Products[] | undefined {
   try {
     // const response = await fetch("https://mks-frontend-challenge-04811e8151e6.herokuapp.com/api/v1/products?page=1&rows=5&sortBy=id&orderBy=ASC")
     // const data = await response.json()

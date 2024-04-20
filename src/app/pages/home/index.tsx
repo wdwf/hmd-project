@@ -7,10 +7,13 @@ import { Skeleton } from "@/app/components/skeleton";
 import { CardProduct } from "@/app/components/cardProduct";
 
 export function HomePage() {
-  const { data: products, isLoading } = useQuery({
-    queryKey: ["products"],
-    queryFn: getProducts,
-  });
+  // const { data: products, isLoading } = useQuery({
+  //   queryKey: ["products"],
+  //   queryFn: getProducts,
+  // });
+
+  const products = getProducts();
+  const isLoading = false;
 
   return (
     <S.ContainerHome>
@@ -25,6 +28,8 @@ export function HomePage() {
       ) : (
         <S.ContainerList>
           {products?.map((product) => {
+            console.log(product);
+
             return <CardProduct product={product} key={product.id} />;
           })}
         </S.ContainerList>

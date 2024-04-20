@@ -132,7 +132,7 @@ export function CartContextProvider<TItemType extends ProductProps>({
     TItemType extends ProductProps
   >(): CartListItem<TItemType>[] {
     if (typeof window !== "undefined") {
-      const cartItems = localStorage.getItem("@MKS:cart");
+      const cartItems = localStorage.getItem("@HMD:cart");
       if (cartItems) {
         return JSON.parse(cartItems);
       }
@@ -144,13 +144,13 @@ export function CartContextProvider<TItemType extends ProductProps>({
     cart: CartListItem<TItemType>[]
   ): void {
     if (typeof window !== "undefined") {
-      localStorage.setItem("@MKS:cart", JSON.stringify(cart));
+      localStorage.setItem("@HMD:cart", JSON.stringify(cart));
     }
   }
 
   function clearCartToLocalStorage() {
     if (typeof window !== "undefined") {
-      localStorage.setItem("@MKS:cart", JSON.stringify([]));
+      localStorage.setItem("@HMD:cart", JSON.stringify([]));
       setProducts(loadCartFromLocalStorage());
     }
   }

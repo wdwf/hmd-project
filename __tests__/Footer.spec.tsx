@@ -13,7 +13,7 @@ describe("Footer", () => {
     render(<Footer />);
 
     const footer = screen.getByText(
-      "MKS sistemas © Todos os direitos reservados"
+      "HMD sistemas © Todos os direitos reservados"
     );
     expect(footer).toBeInTheDocument();
   });
